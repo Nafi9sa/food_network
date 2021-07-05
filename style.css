@@ -2,3 +2,39 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+h1{
+    font-size: 50px;
+}
+.color-chng{
+    color: tomato;
+}
+.color-chng-2{
+    color: darkslategray;
+}
+p{
+    color: darkslategray;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.order-food-sec{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 5%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orangered, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 50%;
+}
