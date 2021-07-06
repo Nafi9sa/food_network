@@ -115,3 +115,21 @@ margin-top: 60px;
     text-align: justify;
     padding-left: 20%;
 }
+footer{
+    margin-top: 150px;
+    background-color: black;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+footer h2{
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+}
+footer p{
+    text-align: center;
+    color: gray;
+}
+.footer-color-chng{
+    color: orange;
+}
