@@ -2,6 +2,45 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 115, 0, 0.973);
+    padding: 0px 20px;
+    overflow: hidden;
+    height: 80px; 
+}
+.logo {
+    float: left;
+    width: 30%;
+    padding-top: 8px;
+}
+.logo img {
+    height: 60px;
+}
+.home{
+    color: black;
+}
+.navbar {
+    float: left;
+    width: 70%;
+    padding-right: 20%;
+    box-sizing: border-box;
+}
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 150px;
+}
+.navbar ul li {
+    float: left;
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 16px 10px;
+    display: inline-block;
+}
 h1{
     font-size: 40px;
     font-weight: 700;
@@ -67,7 +106,7 @@ p{
 }
 .my-recipies{
 text-align: center;
-margin-top: 60px;
+margin-top: 100px;
 }
 .my-recipies h1{
     font-size: 25px;
@@ -115,6 +154,19 @@ margin-top: 60px;
     text-align: justify;
     padding-left: 20%;
 }
+.social-network-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 30px slategray;
+    height: 300px;
+    width: 1000px;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+
 footer{
     margin-top: 150px;
     background-color: black;
