@@ -3,7 +3,8 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 700;
 }
 .color-chng{
     color: tomato;
@@ -18,12 +19,12 @@ p{
 }
 .order-food-sec{
     display: flex;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    padding-top: 5%;
 }
 .half-width img{
     width: 80%;
@@ -31,10 +32,36 @@ p{
 }
 .btn{
     text-decoration: none;
-    background-image: linear-gradient(orangered, tomato);
+    background-image: linear-gradient(orange, red);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 20px;
     margin-top: 50%;
+}
+.about-us-sec{
+    display: flex;
+    margin-top: 50px;
+}
+.about-us-sec .half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 100px;
+}
+.about-us-sec p{
+    padding-right: 20%;
+    margin-bottom: 80px;
+}
+.about-us-sec .half-width img{
+    height: 480px;
+    width: 50%;
+    padding-left: 15%;
+}
+.about-us-sec{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-us-sec h1{
+    font-size: 30px;
+    color: darkslategray;
 }
